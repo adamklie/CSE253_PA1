@@ -1,0 +1,29 @@
+#QUESTION 6c: Weight Visualization
+#INPUTS:
+#1) A single row of the weights from the softmax activation (np.array)
+#2) The principal components 
+#3) The number of principal components used for training (int)
+#4) The first dimension of the image (224?) (int)
+#5) The second dimension of the image (192?) (int)
+#6) The emotion associated with these weights (str)
+#OUTPUT:
+# This function will plot the weight visualization for a particular emotion
+# This function will return None
+def VisualizeWeights(weights, principalComponents, numPrincipalComponents,uno,dos,nombre):
+    freshPrinceOfBelAir = list()
+    for i in range(numPrincipalComponents):
+        freshPrinceOfBelAir.append(principalComponents[i, :] * weights[i+1]) #i+1 to skip over the bias weight
+    sauronOfMordor = freshPrinceOfBelAir[0]
+    for i in range(1, len(freshPrinceOfBelAir)):
+        sauronOfMordor += freshPrinceOfBelAir[i]
+    
+    plt.figure(figsize=(12,12))
+    forPlotting = np.array(np.reshape(sauronOfMordor, (uno, dos)))
+    img = Image.fromarray(forPlotting)
+    plt.imshow(img)
+    plt.tick_params(axis='x',which='both',bottom=False,top=False,labelbottom=False)
+    plt.tick_params(axis='y',which='both',left=False,right=False,labelleft=False)
+    plt.title("Weight visualization of: " + nombre + " at " + str(numPrincipalComponents) + " PCs")
+    
+                                   
+    return None
