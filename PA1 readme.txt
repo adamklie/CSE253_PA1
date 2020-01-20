@@ -5,6 +5,7 @@ In this .zip folder the following files relating to this assignment are included
 Instructions For Running:
 1) PA1 Complete Logistic Regresion.py:
 - This file should NOT be run from the command line. Trying will result in the following error: ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+- This file should be run inside the PA1 folder
 - Instead this file should be run either by 1) Running the code within an IDE (for testing purposed we performed this using SPYDER) or 2) Evaluating inside a jupyter notebook (we have attached the equivalent of the .py file here as a .ipynb) (Recommended) 
 - If running in an IDE we suggest the following code modifications for ease of output visualization (due to the splitting of outputs between text and plots making the outputs hard to track):
 	- Comment out all but one line (or in the case of the learning rate plots comment out all lines in the main function above oneLearningRate = and after #Perform remainder... ). 
