@@ -25,7 +25,7 @@ Instructions For Running:
 	- Each function call returns the training accuracy, minimum validation loss, normalized test loss and test set accuracy along with plots of validation accuracy and loss and of PC visualization. Our testing within 
 	  Spyder resulted in the output returning all the values first and then all the plots making it hard to track which test set result maps to which plot.
 
-- For convenience we have also attached a jupyter notebook as well with the name PA1 Log Reg.ipynb
+- For convenience we have also attached a jupyter notebook as well with the name PA1 Complete Logistic Regression.ipynb
 
 2) PA2 Complete Softmax Regression.py
 - This file must be run in the same directory as the "aligned" directory with the aligned images in them
