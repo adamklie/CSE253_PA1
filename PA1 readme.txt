@@ -1,6 +1,19 @@
 CSE 253: Programming Assignment 1
 
-In this .zip folder the following files relating to this assignment are included: 1) PA1 Complete Logistic Regresion.py 2 ) YOUR FILES HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+In this .zip folder the following files relating to this assignment are included: 
+1) PA1 Complete Logistic Regresion.py 
+2) PA2 Complete Softmax Regression.py
+3) dataloader.py
+4) aligned
+5) resized
+
+The Logistic and Softmax regression files are standalone scripts, meaning they can be run individually to produce the outputs relevant to each implementation.
+However, running each regression scripts requires one to have the following packages installed and loaded into one's environment: 
+PIL 
+NumPy
+matplotlib
+Pandas
+seaboarn
 
 Instructions For Running:
 1) PA1 Complete Logistic Regresion.py:
@@ -14,6 +27,11 @@ Instructions For Running:
 
 - For convenience we have also attached a jupyter notebook as well with the name PA1 Log Reg.ipynb
 
-2) ... 
+2) PA2 Complete Softmax Regression.py
+- This file must be run in the same directory as the "aligned" directory with the aligned images in them
+- It must also be run with the dataloader.py file in the same directory
+- This file can be run within an IDE (testing completed in PyCharm) or the command line, assuming the correct packages have been installed and loaded into the environment
+- We have also attached a Jupyter notebook for this file with the name PA1 Complete Softmax Regression.ipynb for convenience
+
 
  
