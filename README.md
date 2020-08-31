@@ -1,2 +1,2 @@
 # CSE253_PA1
-Logisitic and Multinomial Regression
+Logisitic and Softmax Regression Implementation for CSE253
